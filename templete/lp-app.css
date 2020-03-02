@@ -20,6 +20,18 @@ img {
   background-color: black;
 }
 
+.lp-app .main-visual {
+  background-image: url("../img/bg-color-gyao.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .lp-app .main-visual {
+    background-size: contain;
+  }
+}
+
 .lp-app .section {
   margin: auto 20px 60px;
 }
