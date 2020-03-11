@@ -5,12 +5,28 @@
     background-color: black
 
     .main-visual
-        background-image: url('../img/bg-color-gyao.png')
-        background-position: center
-        background-size: cover
+        // background-image: url('../img/bg-color-gyao.png')
+        background: linear-gradient(#e50065, #000) center / cover
+        padding: $gutter*2 $gutter
+        margin-bottom: 30px
         @media screen and (min-width: 1024px)
             background-size: contain
+        @media screen and ( min-width: 768px)
+            margin-bottom: 120px
+        @media screen and ( min-width: 768px)
+            margin-bottom: 60px
 
+    .main-visual-appicon
+        margin: 0 auto $gutter
+        box-shadow: $shadow-white
+        border-radius: 22%
+        line-height: 0
+        display: inline-block
+        width: 30vw
+        @media screen and (min-width: 768px)
+            width: 25vw
+        @media screen and ( min-width: 1025px)
+            width: 10vw
     .section
         margin: auto $gutter 60px
         @media screen and (min-width: 768px)
@@ -44,27 +60,6 @@
         width: 76px
         line-height: 0
 
-    .main-visual
-        padding: $gutter*2 $gutter
-        background-color: #111
-        margin-bottom: 30px
-        @media screen and ( min-width: 768px)
-            margin-bottom: 120px
-        @media screen and ( min-width: 768px)
-            margin-bottom: 60px
-
-
-    .main-visual-appicon
-        margin: 0 auto $gutter
-        box-shadow: $shadow-white
-        border-radius: 22%
-        line-height: 0
-        display: inline-block
-        width: 30vw
-        @media screen and (min-width: 768px)
-            width: 25vw
-        @media screen and ( min-width: 1025px)
-            width: 10vw
 
 
     .main-content-download-button

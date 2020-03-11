@@ -21,14 +21,49 @@ img {
 }
 
 .lp-app .main-visual {
-  background-image: url("../img/bg-color-gyao.png");
-  background-position: center;
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e50065), to(#000)) center/cover;
+  background: linear-gradient(#e50065, #000) center/cover;
+  padding: 40px 20px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1024px) {
   .lp-app .main-visual {
     background-size: contain;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lp-app .main-visual {
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lp-app .main-visual {
+    margin-bottom: 60px;
+  }
+}
+
+.lp-app .main-visual-appicon {
+  margin: 0 auto 20px;
+  -webkit-box-shadow: 0px 0px 10px 0px white;
+          box-shadow: 0px 0px 10px 0px white;
+  border-radius: 22%;
+  line-height: 0;
+  display: inline-block;
+  width: 30vw;
+}
+
+@media screen and (min-width: 768px) {
+  .lp-app .main-visual-appicon {
+    width: 25vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .lp-app .main-visual-appicon {
+    width: 10vw;
   }
 }
 
@@ -98,46 +133,6 @@ img {
 .lp-app .header-link {
   width: 76px;
   line-height: 0;
-}
-
-.lp-app .main-visual {
-  padding: 40px 20px;
-  background-color: #111;
-  margin-bottom: 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .lp-app .main-visual {
-    margin-bottom: 120px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .lp-app .main-visual {
-    margin-bottom: 60px;
-  }
-}
-
-.lp-app .main-visual-appicon {
-  margin: 0 auto 20px;
-  -webkit-box-shadow: 0px 0px 10px 0px white;
-          box-shadow: 0px 0px 10px 0px white;
-  border-radius: 22%;
-  line-height: 0;
-  display: inline-block;
-  width: 30vw;
-}
-
-@media screen and (min-width: 768px) {
-  .lp-app .main-visual-appicon {
-    width: 25vw;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .lp-app .main-visual-appicon {
-    width: 10vw;
-  }
 }
 
 .lp-app .main-content-download-button {
