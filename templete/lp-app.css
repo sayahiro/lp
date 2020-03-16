@@ -122,8 +122,8 @@ img {
 }
 
 .lp-app .is-show {
+  animation: fade-in 3s forwards;
   -webkit-animation: fade-in 3s forwards;
-          animation: fade-in 3s forwards;
 }
 
 .lp-app header {
